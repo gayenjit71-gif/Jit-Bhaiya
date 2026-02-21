@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JIT BHAIYA MOD APK | Free Fire & Free Fire MAX</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #000000 0%, #0a0a1a 100%);
+            color: white;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* HEADER */
+        header {
+            text-align: center;
+            padding: 30px 20px;
+            background: linear-gradient(to right, #000428, #004e92);
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 78, 146, 0.5);
+            position: relative;
+            overflow: hidden;
+            border: 2px solid #00ffff;
+        }
+        
+        .logo {
+            position: absolute;
+            left: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 3rem;
+            color: #00ffff;
+            text-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
+        }
+        
+        .cheatz-badge {
+            position: absolute;
+            right: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: linear-gradient(45deg, #ff0080, #ff8c00);
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 50px;
+            box-shadow: 0 5px 15px rgba(255, 0, 128, 0.5);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border: 2px solid #00ffff;
+            animation: glow 2s infinite;
+        }
+        
+        @keyframes glow {
+            0% { box-shadow: 0 0 10px #ff0080; }
+            50% { box-shadow: 0 0 20px #00ffff; }
+            100% { box-shadow: 0 0 10px #ff0080; }
+        }
+        
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+            letter-spacing: 1px;
+            background: linear-gradient(to right, #00ffff, #0080ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .subtitle {
+            font-size: 1.3rem;
+            color: #00ff00;
+            margin-bottom: 10px;
+            text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+        }
+        
+        /* PROTECTION STATS */
+        .protection-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .protection-stat {
+            background: rgba(20, 20, 40, 0.9);
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            border: 2px solid #00ff00;
+            box-shadow: 0 10px 20px rgba(0, 255, 0, 0.2);
+        }
+        
+        .protection-value {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #00ff00;
+            margin: 10px 0;
+        }
+        
+        .protection-label {
+            font-size: 1.2rem;
+            color: #aaa;
+        }
+        
+        /* AVAILABLE FEATURES */
+        .features-section {
+            background: rgba(10, 10, 30, 0.9);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            border: 2px solid #00ffff;
+            box-shadow: 0 10px 30px rgba(0, 255, 255, 0.2);
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 25px;
+        }
+        
+        .feature-card {
+            background: rgba(20, 20, 40, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid rgba(0, 255, 255, 0.3);
+            transition: all 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            border-color: #00ffff;
+            box-shadow: 0 10px 20px rgba(0, 255, 255, 0.2);
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            color: #00ffff;
+            margin-bottom: 15px;
+        }
+        
+        .feature-name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #00ffff;
+            margin-bottom: 10px;
+        }
+        
+        /* PRICING TABLES */
+        .pricing-section {
+            margin: 40px 0;
+        }
+        
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 25px;
+        }
+        
+        .pricing-card {
+            background: rgba(20, 10, 40, 0.9);
+            border-radius: 15px;
+            padding: 25px;
+            border: 2px solid #ff00ff;
+            box-shadow: 0 10px 20px rgba(255, 0, 255, 0.2);
+            text-align: center;
+        }
+        
+        .pricing-title {
+            font-size: 1.8rem;
+            color: #ff00ff;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .price-list {
+            text-align: left;
+            margin: 20px 0;
+        }
+        
+        .price-item {
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .price-days {
+            color: #00ffff;
+            font-weight: bold;
+        }
+        
+        .price-amount {
+            color: #00ff00;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        
+        /* BUY BUTTON */
+        .buy-btn {
+            background: linear-gradient(45deg, #00ff00, #00cc00);
+            color: white;
+            border: none;
+            padding: 18px 35px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 10px 20px rgba(0, 255, 0, 0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin: 30px auto;
+            width: 100%;
+            max-width: 400px;
+        }
+        
+        .buy-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 30px rgba(0, 255, 0, 0.6);
+            background: linear-gradient(45deg, #00cc00, #00ff00);
+        }
+        
+        /* RESELLER INFO */
+        .reseller-section {
+            background: rgba(40, 20, 10, 0.9);
+            border-radius: 15px;
+            padding: 25px;
+            margin: 30px 0;
+            border: 2px solid #ff8c00;
+            box-shadow: 0 10px 20px rgba(255, 140, 0, 0.2);
+            text-align: center;
+        }
+        
+        .reseller-badge {
+            display: inline-block;
+            background: linear-gradient(45deg, #ff8c00, #ff5500);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        /* INSTRUCTIONS */
+        .instructions {
+            background: rgba(10, 30, 10, 0.9);
+            border-radius: 15px;
+            padding: 25px;
+            margin: 30px 0;
+            border: 2px solid #00ff00;
+            box-shadow: 0 10px 20px rgba(0, 255, 0, 0.2);
+        }
+        
+        .instructions-list {
+            padding-left: 20px;
+            margin-top: 15px;
+        }
+        
+        .instructions-list li {
+            margin-bottom: 12px;
+            color: #aaa;
+            line-height: 1.6;
+        }
+        
+        /* TELEGRAM SECTION */
+        .telegram-section {
+            text-align: center;
+            margin: 50px 0;
+        }
+        
+        .telegram-btn {
+            background: linear-gradient(45deg, #0088cc, #00aced);
+            color: white;
+            border: none;
+            padding: 20px 40px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 10px 25px rgba(0, 136, 204, 0.5);
+            display: inline-flex;
+            align-items: center;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .telegram-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 30px rgba(0, 136, 204, 0.7);
+        }
+        
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+            border-top: 2px solid rgba(0, 255, 255, 0.3);
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+        
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .logo, .cheatz-badge {
+                position: static;
+                transform: none;
+                margin-bottom: 20px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: fit-content;
+            }
+            
+            .protection-stats {
+                grid-template-columns: 1fr;
+            }
+            
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .pricing-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .buy-btn, .telegram-btn {
+                width: 100%;
+                padding: 15px 20px;
+                font-size: 1.2rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER -->
+        <header>
+            <div class="logo">
+                <i class="fas fa-bolt"></i>
+            </div>
+            
+            <div class="cheatz-badge">
+                <i class="fas fa-crown"></i> JIT BHAIYA MOD APK
+            </div>
+            
+            <h1>JIT BHAIYA MOD APK</h1>
+            <div class="subtitle">Free Fire & Free Fire MAX | Install & Play | Working 2026</div>
+            <div class="subtitle" style="color: #00ffff; font-size: 1rem;">
+                <i class="fas fa-check-circle"></i> ID SAFE PROTECTION | ROOT/NON-ROOT SUPPORT
+            </div>
+        </header>
+        
+        <!-- PROTECTION STATS -->
+        <div class="protection-stats">
+            <div class="protection-stat">
+                <div class="protection-value">99.99%</div>
+                <div class="protection-label">BAN PROTECTION</div>
+            </div>
+            <div class="protection-stat">
+                <div class="protection-value">99.99%</div>
+                <div class="protection-label">BLACK LIST PROTECTION</div>
+            </div>
+        </div>
+        
+        <!-- AVAILABLE FEATURES -->
+        <div class="features-section">
+            <h2 style="color: #00ffff; text-align: center; margin-bottom: 25px; font-size: 2rem;">
+                <i class="fas fa-star"></i> AVAILABLE FEATURES
+            </h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-crosshairs"></i></div>
+                    <div class="feature-name">AIMBOT</div>
+                    <div style="color: #aaa; font-size: 0.9rem;">Auto targeting & headshots</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-eye"></i></div>
+                    <div class="feature-name">ESP/WALLHACK</div>
+                    <div style="color: #aaa; font-size: 0.9rem;">See through walls</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-bullseye"></i></div>
+                    <div class="feature-name">NO RECOIL</div>
+                    <div style="color: #aaa; font-size: 0.9rem;">Zero weapon recoil</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-running"></i></div>
+                    <div class="feature-name">SPEED HACK</div>
+                    <div style="color: #aaa; font-size: 0.9rem;">Increased movement speed</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-feather-alt"></i></div>
+                    <div class="feature-name">FLY HACK</div>
+                    <div style="color: #aaa; font-size: 0.9rem;">Fly anywhere on map</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-skull-crossbones"></i></div>
+                    <div class="feature-name">AIMKILL</div>
+                    <div style="color: #aaa; font-size: 0.9rem;">Instant kill on aim</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-volume-mute"></i></div>
+                    <div class="feature-name">AIM SILENT</div>
+                    <div style="color: #aaa; font-size: 0.9rem;">Silent aim no detection</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                    <div class="feature-name">BYPASS</div>
+                    <div style="color: #aaa; font-size: 0.9rem;">Bypass all security</div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 25px; color: #00ff00;">
+                <i class="fas fa-check-circle"></i> ROOT & NON-ROOT BOTH WORKING
+            </div>
+        </div>
+        
+        <!-- PRICING TABLES -->
+        <div class="pricing-section">
+            <h2 style="color: #ff00ff; text-align: center; margin-bottom: 10px; font-size: 2rem;">
+                <i class="fas fa-tags"></i> PRICE LIST
+            </h2>
+            <p style="text-align: center; color: #aaa; margin-bottom: 30px;">
+                Intect System Free Fire / Free Fire Max
+            </p>
+            
+            <div class="pricing-grid">
+                <!-- NON-ROOT PRICING -->
+                <div class="pricing-card">
+                    <div class="pricing-title">
+                        <i class="fas fa-mobile-alt"></i> NON-ROOT
+                    </div>
+                    
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span class="price-days">5 DAYS</span>
+                            <span class="price-amount">200₹</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="price-days">10 DAYS</span>
+                            <span class="price-amount">400₹</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="price-days">15 DAYS</span>
+                            <span class="price-amount">600₹</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="price-days">20 DAYS</span>
+                            <span class="price-amount">800₹</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="price-days">30 DAYS</span>
+                            <span class="price-amount">1200₹</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- ROOT PRICING -->
+                <div class="pricing-card">
+                    <div class="pricing-title">
+                        <i class="fas fa-terminal"></i> ROOT INTECTOR
+                    </div>
+                    
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span class="price-days">7 DAYS</span>
+                            <span class="price-amount">250₹</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="price-days">14 DAYS</span>
+                            <span class="price-amount">500₹</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="price-days">30 DAYS</span>
+                            <span class="price-amount">1000₹</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="price-days">60 DAYS</span>
+                            <span class="price-amount">2000₹</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- BUY BUTTON -->
+            <button class="buy-btn" id="buy-now-btn">
+                <i class="fab fa-telegram"></i> BUY NOW - MESSAGE ON TELEGRAM
+            </button>
+        </div>
+        
+        <!-- QR CODE -->
+<div style="text-align:center; margin-top:25px;">
+    
+    <div style="
+        color:#00ffff;
+        font-size:18px;
+        margin-bottom:12px;
+        font-weight:bold;
+        text-shadow:0 0 10px #00ffff;">
+        Scan QR to Contact on Telegram
+    </div>
+
+    <img src="https://fantastic-gray-njuuaal9rn.edgeone.app/20260221_160324.jpg"
+         onclick="openTelegramWithMessage()"
+         style="
+            width:220px;
+            height:220px;
+            border-radius:15px;
+            border:3px solid #00ff00;
+            box-shadow:0 0 25px rgba(0,255,0,0.7);
+            cursor:pointer;
+            transition:0.3s;
+         "
+         onmouseover="this.style.transform='scale(1.05)'"
+         onmouseout="this.style.transform='scale(1)'"
+    >
+
+</div>
+        
+        
+        
+        <!-- RESELLER INFO -->
+        <div class="reseller-section">
+            <div class="reseller-badge">
+                <i class="fas fa-users"></i> RESELLER AVAILABLE
+            </div>
+            <h3 style="color: #ff8c00; margin-bottom: 15px; font-size: 1.8rem;">
+                <i class="fas fa-key"></i> KEY AVAILABLE FOR RESELLERS
+            </h3>
+            <p style="color: #aaa; line-height: 1.6;">
+                Become a reseller and earn commission. Bulk keys available at discounted rates. 
+                Contact on Telegram for reseller partnership.
+            </p>
+        </div>
+        
+        <!-- INSTRUCTIONS -->
+        <div class="instructions">
+            <h3 style="color: #00ff00; margin-bottom: 20px; font-size: 1.8rem;">
+                <i class="fas fa-info-circle"></i> HOW TO GET JIT BHAIYA
+            </h3>
+            
+            <ol class="instructions-list">
+                <li><strong>Choose your package</strong> - Select Non-Root or Root version</li>
+                <li><strong>Click BUY NOW button</strong> - You will be redirected to Telegram</li>
+                <li><strong>Message @JITxPRIME</strong> - Send "I want to buy JIT BHAIYA"</li>
+                <li><strong>Specify package</strong> - Tell which package you want (Non-Root/Root, days)</li>
+                <li><strong>Make payment</strong> - UPI/GPay/PhonePe accepted</li>
+                <li><strong>Receive MOD APK</strong> - Get download link immediately after payment</li>
+                <li><strong>Install & Play</strong> - Install APK and enjoy Free Fire with cheats</li>
+            </ol>
+            
+            <div style="margin-top: 20px; padding: 15px; background: rgba(0, 255, 0, 0.1); border-radius: 10px; border: 1px solid #00ff00;">
+                <i class="fas fa-shield-alt" style="color: #00ff00;"></i>
+                <strong style="color: #00ff00;"> ID SAFE PROTECTION:</strong>
+                <span style="color: #aaa;"> Your Free Fire account is 99.99% protected from bans. Our system spoofs device ID and bypasses all security checks.</span>
+            </div>
+        </div>
+        
+        <!-- TELEGRAM SECTION -->
+        <div class="telegram-section">
+            <h3 style="color: #0088cc; margin-bottom: 20px; font-size: 2rem;">
+                <i class="fab fa-telegram"></i> DIRECT CONTACT
+            </h3>
+            
+            <p style="color: #aaa; margin-bottom: 25px; font-size: 1.1rem;">
+                Message with your package choice. Example: "I want Non-Root 30 Days"
+            </p>
+            
+            <button class="telegram-btn" id="telegram-contact-btn">
+                <i class="fab fa-telegram"></i> DM ID ON TELEGRAM: @JITxPRIME
+            </button>
+            
+            <p style="color: #00ff00; margin-top: 20px; font-size: 1.1rem;">
+                <i class="fas fa-bolt"></i> Instant Delivery | 24/7 Support | Regular Updates
+            </p>
+        </div>
+        
+        <!-- FOOTER -->
+        <footer>
+            <p>JIT BHAIYA APK | Free Fire & Free Fire MAX Hack</p>
+            <p style="margin-top: 10px; color: #666;">
+                © 2026 JIT BHAIYA. All features mentioned are for representation only.
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // TELEGRAM URL
+            const TELEGRAM_URL = 'https://t.me/JITxPRIME';
+            
+            // Function to open Telegram with pre-filled message
+            function openTelegramWithMessage(packageType = '') {
+                let message = "I want to buy JIT BHAIYA";
+                if (packageType) {
+                    message += ` - ${packageType}`;
+                }
+                
+                // Encode message for URL
+                const encodedMessage = encodeURIComponent(message);
+                const telegramURL = `https://t.me/JITxPRIME?text=${encodedMessage}`;
+                
+                // Open Telegram
+                window.open(telegramURL, '_blank');
+                
+                // Show confirmation
+                alert(`Opening Telegram to message @JITxPRIME\n\nMessage: "${message}"\n\nPlease send this message to purchase.`);
+            }
+            
+            // Setup Buy Now button
+            document.getElementById('buy-now-btn').addEventListener('click', function() {
+                openTelegramWithMessage();
+            });
+            
+            // Setup Telegram Contact button
+            document.getElementById('telegram-contact-btn').addEventListener('click', function() {
+                openTelegramWithMessage();
+            });
+            
+            // Add click handlers to price items for quick selection
+            document.querySelectorAll('.price-item').forEach(item => {
+                item.addEventListener('click', function() {
+                    const days = this.querySelector('.price-days').textContent;
+                    const amount = this.querySelector('.price-amount').textContent;
+                    const isRoot = this.closest('.pricing-card').querySelector('.pricing-title').textContent.includes('ROOT');
+                    
+                    const packageType = `${isRoot ? 'ROOT' : 'NON-ROOT'} ${days} - ${amount}`;
+                    openTelegramWithMessage(packageType);
+                });
+            });
+            
+            // Add hover effects to price items
+            document.querySelectorAll('.price-item').forEach(item => {
+                item.style.cursor = 'pointer';
+                item.style.transition = 'background 0.3s';
+                
+                item.addEventListener('mouseenter', function() {
+                    this.style.background = 'rgba(0, 255, 255, 0.1)';
+                });
+                
+                item.addEventListener('mouseleave', function() {
+                    this.style.background = 'transparent';
+                });
+            });
+            
+            // Feature cards animation
+            document.querySelectorAll('.feature-card').forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    const icon = this.querySelector('.feature-icon i');
+                    icon.style.transform = 'scale(1.2)';
+                    icon.style.transition = 'transform 0.3s';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    const icon = this.querySelector('.feature-icon i');
+                    icon.style.transform = 'scale(1)';
+                });
+            });
+            
+            // Console log for tracking (optional)
+            console.log(`
+            ╔══════════════════════════════════════════╗
+            ║        JIT BHAIYA MOD APK             ║
+            ║        Sales Page Loaded                 ║
+            ║        Telegram: @JITxPRIME           ║
+            ║        All systems operational           ║
+            ╚══════════════════════════════════════════╝
+            `);
+            
+            // Auto-scroll to features on load
+            setTimeout(() => {
+                document.querySelector('.features-section').scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center'
+                });
+            }, 1000);
+            
+            // Price update animation
+            setInterval(() => {
+                document.querySelectorAll('.price-amount').forEach(amount => {
+                    amount.style.transform = 'scale(1.05)';
+                    amount.style.transition = 'transform 0.5s';
+                    
+                    setTimeout(() => {
+                        amount.style.transform = 'scale(1)';
+                    }, 500);
+                });
+            }, 5000);
+            
+            // Protection stats animation
+            const protectionValues = document.querySelectorAll('.protection-value');
+            setInterval(() => {
+                protectionValues.forEach(value => {
+                    value.style.color = '#00ffff';
+                    setTimeout(() => {
+                        value.style.color = '#00ff00';
+                    }, 500);
+                });
+            }, 3000);
+        });
+    </script>
+</body>
+</html>
